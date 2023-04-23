@@ -1,0 +1,125 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap');
+html,body{
+    min-height: 100vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding: 60px 10px 52px;
+margin-bottom: 50px;
+}
+
+.title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 27px;
+color: #FFFFFF;
+
+}
+.btn {
+color: white;
+height: 40px;
+width: 100px;
+background: #2ADBC6;
+border-radius: 5px;
+font-family: roboto;
+font-weight: bold;
+font-size: 13px;
+line-height: 24px;
+}
+
+.form{
+width: 400px;
+height: 40px;
+display: flex;
+justify-content: space-between;
+background:white;
+border-radius: 7px;
+
+}
+.input{
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 13px;
+      
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px #486C80;
+    width: 350px;
+    height: 250px;
+}
+
+.card-city {
+    font-family: 'Fenix';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.card-wheater {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.card-value {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 40px;
+    
+
+}
+.card-img {
+
+
+}
+.card-desc {
+
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+}
+.marat-title{
+font-family: 'Atma';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 16px;
+
+}
+.footer{
+    margin-top: auto;   
+    width: 100%;
+    padding: 10px;
+    
+}
